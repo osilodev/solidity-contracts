@@ -7,7 +7,7 @@
  * 
  * 
  * Only thing you have to customize is the name of the token and its symbol.
- * You can also change the fee values to your preferred tokenomics.
+ * You can also change the fee values to your preferred tokenomics. 
 */
 
 // SPDX-License-Identifier: unlicensed

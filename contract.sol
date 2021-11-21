@@ -310,14 +310,14 @@ contract DividendDistributor is IDividendDistributor {
  * Contract Code
  */
 
-contract X is IBEP20, Auth {
+contract Example is IBEP20, Auth {
 
     address WBNB = 0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c;
     address DEAD = 0x000000000000000000000000000000000000dEaD;
     address ZERO = 0x0000000000000000000000000000000000000000;
 
-    string constant _name = "X";
-    string constant _symbol = "X"; 
+    string constant _name = "Example";
+    string constant _symbol = "Exa"; 
     uint8 constant _decimals = 9;
     uint256 _totalSupply = 10 * 10**10 * 10**_decimals;
 
@@ -338,13 +338,13 @@ contract X is IBEP20, Auth {
 
     uint256 public BuyliquidityFee    = 1;
     uint256 public BuyreflectionFee   = 1;
-    uint256 public BuymarketingFee    = 2;
-    uint256 public BuytotalFee        = 4;
+    uint256 public BuymarketingFee    = 3;
+    uint256 public BuytotalFee        = 5;
 
     uint256 public SellliquidityFee    = 1;
     uint256 public SellreflectionFee   = 1;
-    uint256 public SellmarketingFee    = 2;
-    uint256 public SelltotalFee        = 4;
+    uint256 public SellmarketingFee    = 3;
+    uint256 public SelltotalFee        = 5;
 
     uint256 public launchedAt = 0;
 
